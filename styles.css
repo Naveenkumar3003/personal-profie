@@ -9,7 +9,6 @@ body {
     color: #333;
 }
 
-
 /* Header Styles */
 header {
     text-align: center;
@@ -75,8 +74,50 @@ section p {
     background-color: #0056b3;
 }
 
+/* Skills, Education, Certifications, Achievements Box Styling */
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.box .skills-box {
+    background-color: #eaf5fe;
+}
+
+.box .education-box {
+    background-color: #e9f7f3;
+}
+
+.box .certifications-box {
+    background-color: #f0f7e5;
+}
+
+.box .achievements-box {
+    background-color: #f9f2f5;
+}
+
 /* Chatbox Styles */
-/* General body and button styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -150,4 +191,3 @@ section {
 #send-btn:hover {
     background-color: #0056b3;
 }
-
